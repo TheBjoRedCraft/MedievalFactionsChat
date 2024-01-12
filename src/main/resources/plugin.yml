@@ -1,0 +1,12 @@
+name: MedievalFactionsChat
+version: '${version}'
+main: dev.thebjoredcraft.medievalfactionschat.MedievalFactionsChat
+api-version: '1.20'
+author: TheBjoRedCraft
+commands:
+  factionchat:
+    description: Writes in the Faction Chat (/factionchat <message>)
+    aliases:
+      - fc
+      - fchat
+    permission: medievalfactionschat.command.factionchat
